@@ -1,0 +1,73 @@
+(module "74LVC1G3157GXZ" (layer F.Cu) (tedit 620D27C4)
+  (descr "74LVC1G3157GXZ, X2SON-6 Analog Switches / Multiplexers ROHS")
+  (tags "X2SON-6 Analog Switches / Multiplexers ROHS, Interface ICs, Analog Switches / Multiplexers")
+  (fp_text reference REF** (at 0 -2.612522) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value 74LVC1G3157GXZ (at 0 2.612522) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_circle (center -0.507506 0.397485) (end -0.477508 0.397485) (layer F.SilkS) (width 0.059995))
+  (fp_circle (center -0.317437 0.722504) (end -0.296101 0.722504) (layer F.SilkS) (width 0.127))
+  (fp_circle (center -0.372504 0.382474) (end -0.322492 0.382474) (layer F.Fab) (width 0.1))
+  (fp_line (start -0.542482 0.57747) (end -0.542482 0.54506) (layer F.SilkS) (width 0.127))
+  (fp_line (start -0.542482 0.049886) (end -0.542482 -0.054966) (layer F.SilkS) (width 0.127))
+  (fp_line (start -0.542482 -0.550013) (end -0.542482 -0.612522) (layer F.SilkS) (width 0.127))
+  (fp_line (start -0.542482 -0.612522) (end -0.450635 -0.612522) (layer F.SilkS) (width 0.127))
+  (fp_line (start -0.064249 -0.612522) (end 0.049162 -0.612522) (layer F.SilkS) (width 0.127))
+  (fp_line (start 0.435928 -0.612522) (end 0.542482 -0.612522) (layer F.SilkS) (width 0.127))
+  (fp_line (start 0.542482 -0.612522) (end 0.542482 -0.524232) (layer F.SilkS) (width 0.127))
+  (fp_line (start 0.542482 -0.080899) (end 0.542482 0.075997) (layer F.SilkS) (width 0.127))
+  (fp_line (start 0.542482 0.518821) (end 0.542482 0.57747) (layer F.SilkS) (width 0.127))
+  (fp_line (start 0.542482 0.57747) (end 0.49666 0.57747) (layer F.SilkS) (width 0.127))
+  (fp_line (start -0.511798 0.57747) (end -0.542482 0.57747) (layer F.SilkS) (width 0.127))
+  (fp_line (start -0.062446 0.612522) (end 0.050965 0.612522) (layer F.SilkS) (width 0.127))
+  (pad 1 smd custom (at -0.307531 0.297562 90) (size 0.299949 0.299949) (layers F.Cu F.Mask F.Paste)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy -0.099975 0.149911) (xy 0.200025 0.149911) (xy 0.200025 0.099924) (xy -0.049962 -0.150089)
+         (xy -0.099975 -0.150089)) (width 0))
+    ))
+  (pad 6 smd custom (at -0.307531 -0.302388 90) (size 0.299949 0.300025) (layers F.Cu F.Mask F.Paste)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy -0.099924 -0.150114) (xy 0.200076 -0.150114) (xy 0.200076 -0.100127) (xy -0.049911 0.149886)
+         (xy -0.099924 0.149886)) (width 0))
+    ))
+  (pad 4 smd custom (at 0.292418 -0.302388 90) (size 0.299949 0.300076) (layers F.Cu F.Mask F.Paste)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy 0.100152 -0.150165) (xy -0.199873 -0.150165) (xy -0.199873 -0.100203) (xy 0.050089 0.149835)
+         (xy 0.100152 0.149835)) (width 0))
+    ))
+  (pad 5 smd custom (at -0.007557 -0.202311 90) (size 0.250038 0.300025) (layers F.Cu F.Mask F.Paste)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy -0.149936 0.124816) (xy 0.150064 0.124816) (xy 0.000051 -0.125197)) (width 0))
+    ))
+  (pad 2 smd custom (at -0.007557 0.197485 90) (size 0.250038 0.300025) (layers F.Cu F.Mask F.Paste)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy -0.149911 -0.125044) (xy 0.150089 -0.125044) (xy 0.000076 0.124994)) (width 0))
+    ))
+  (pad 3 smd custom (at 0.292418 0.297562 90) (size 0.299949 0.300025) (layers F.Cu F.Mask F.Paste)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy 0.100051 0.149809) (xy 0.100051 -0.150114) (xy 0.050013 -0.150114) (xy -0.199975 0.099822)
+         (xy -0.199975 0.149809)) (width 0))
+    ))
+  (fp_text user REF** (at 0 4.612522) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (model Z:\footprint/lcsc_interface_ics/packages3d/74LVC1G3157GXZ.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 -90))
+  )
+)

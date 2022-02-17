@@ -1,0 +1,52 @@
+(module "74LVC1G384GXH" (layer F.Cu) (tedit 620D27D2)
+  (descr "74LVC1G384GXH, X2SON-5 Analog Switches / Multiplexers ROHS")
+  (tags "X2SON-5 Analog Switches / Multiplexers ROHS, Interface ICs, Analog Switches / Multiplexers")
+  (fp_text reference REF** (at 0 -2.508001) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value 74LVC1G384GXH (at 0 2.508001) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_circle (center -0.401422 -0.399721) (end -0.371425 -0.399721) (layer F.SilkS) (width 0.059995))
+  (fp_circle (center -0.6349 -0.253874) (end -0.614834 -0.253874) (layer F.SilkS) (width 0.1))
+  (fp_circle (center -0.523368 -0.337008) (end -0.473355 -0.337008) (layer F.Fab) (width 0.1))
+  (fp_line (start 0.4 0.508001) (end -0.4 0.508001) (layer F.SilkS) (width 0.150013))
+  (fp_line (start 0.4 -0.508001) (end -0.4 -0.508001) (layer F.SilkS) (width 0.150013))
+  (pad 3 smd rect (at 0.000102 -0.000127 45) (size 0.3 0.3) (layers F.Cu F.Mask F.Paste))
+  (pad 5 smd custom (at 0.300076 -0.239903) (size 0.35997 0.220015) (layers F.Cu F.Mask F.Paste)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy 0.179858 -0.110008) (xy 0.179858 0.110008) (xy -0.000152 0.110008) (xy -0.180137 -0.029997)
+         (xy -0.180137 -0.110008) (xy 0.179858 -0.110008)) (width 0))
+    ))
+  (pad 1 smd custom (at -0.300127 -0.239903) (size 0.35997 0.220015) (layers F.Cu F.Mask F.Paste)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy -0.179883 -0.110008) (xy -0.179883 0.110008) (xy 0.000127 0.110008) (xy 0.180112 -0.029997)
+         (xy 0.180112 -0.110008) (xy -0.179883 -0.110008)) (width 0))
+    ))
+  (pad 2 smd custom (at -0.300127 0.239903) (size 0.35997 0.220015) (layers F.Cu F.Mask F.Paste)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy -0.179883 0.110058) (xy -0.179883 -0.109957) (xy 0.000127 -0.109957) (xy 0.180112 0.030048)
+         (xy 0.180112 0.110058) (xy -0.179883 0.110058)) (width 0))
+    ))
+  (pad 4 smd custom (at 0.300076 0.239903 180) (size 0.35997 0.220015) (layers F.Cu F.Mask F.Paste)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy 0.179832 0.110058) (xy 0.179832 -0.109957) (xy -0.000178 -0.109957) (xy -0.180163 0.030048)
+         (xy -0.180163 0.110058) (xy 0.179832 0.110058)) (width 0))
+    ))
+  (fp_text user REF** (at 0 4.508001) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (model Z:\footprint/lcsc_interface_ics/packages3d/74LVC1G384GXH.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 -180))
+  )
+)

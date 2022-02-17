@@ -1,0 +1,80 @@
+(module "DGQ2788AEN-T1-GE4" (layer F.Cu) (tedit 620D0C86)
+  (descr "DGQ2788AEN-T1-GE4, miniQFN-16(1.8x2.6) Analog Switches / Multiplexers ROHS")
+  (tags "miniQFN-16(1.8x2.6) Analog Switches / Multiplexers ROHS, Interface ICs, Analog Switches / Multiplexers")
+  (fp_text reference REF** (at 0 -3.016002) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value DGQ2788AEN-T1-GE4 (at 0 3.016002) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_circle (center -1.299975 0.899924) (end -1.270003 0.899924) (layer F.SilkS) (width 0.059995))
+  (fp_circle (center -0.59525 0.640157) (end -0.52032 0.640157) (layer F.Fab) (width 0.150013))
+  (fp_circle (center -0.599949 1.439929) (end -0.525019 1.439929) (layer F.SilkS) (width 0.150013))
+  (fp_line (start -0.916129 -1.016002) (end -1.397003 -1.016002) (layer F.SilkS) (width 0.2))
+  (fp_line (start -1.397003 -1.016002) (end -1.397003 -0.916129) (layer F.SilkS) (width 0.2))
+  (fp_line (start -1.397003 0.916129) (end -1.397003 1.016002) (layer F.SilkS) (width 0.2))
+  (fp_line (start -1.397003 1.016002) (end -0.916129 1.016002) (layer F.SilkS) (width 0.2))
+  (fp_line (start 1.397003 0.889002) (end 1.397003 1.016002) (layer F.SilkS) (width 0.2))
+  (fp_line (start 1.397003 1.016002) (end 0.889002 1.016002) (layer F.SilkS) (width 0.2))
+  (fp_line (start 0.889002 -1.016002) (end 1.397003 -1.016002) (layer F.SilkS) (width 0.2))
+  (fp_line (start 1.397003 -1.016002) (end 1.397003 -0.916129) (layer F.SilkS) (width 0.2))
+  (pad 16 smd custom (at -1.231902 0.599949) (size 0.664999 0.2) (layers F.Cu F.Mask F.Paste)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy -0.332588 -0.1) (xy 0.33241 -0.1) (xy 0.150013 0.1) (xy -0.332588 0.1)) (width 0))
+    ))
+  (pad 15 smd rect (at -1.231902 0.199898) (size 0.664999 0.2) (layers F.Cu F.Mask F.Paste))
+  (pad 14 smd rect (at -1.231902 -0.199898) (size 0.664999 0.2) (layers F.Cu F.Mask F.Paste))
+  (pad 13 smd custom (at -1.231902 -0.599949) (size 0.664999 0.2) (layers F.Cu F.Mask F.Paste)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy -0.332588 -0.1) (xy 0.150013 -0.1) (xy 0.33241 0.1) (xy -0.332588 0.1)) (width 0))
+    ))
+  (pad 12 smd custom (at -0.599949 -0.732614) (size 0.199898 0.664973) (layers F.Cu F.Mask F.Paste)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy -0.1 -0.332385) (xy 0.1 -0.332385) (xy 0.1 0.332614) (xy -0.1 0.150013)) (width 0))
+    ))
+  (pad 11 smd rect (at -0.199898 -0.732614) (size 0.2 0.664999) (layers F.Cu F.Mask F.Paste))
+  (pad 10 smd rect (at 0.199898 -0.732614) (size 0.2 0.664999) (layers F.Cu F.Mask F.Paste))
+  (pad 9 smd custom (at 0.599949 -0.732614) (size 0.199898 0.665481) (layers F.Cu F.Mask F.Paste)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy -0.1 -0.33241) (xy 0.1 -0.33241) (xy 0.1 0.150013) (xy -0.1 0.332995)) (width 0))
+    ))
+  (pad 8 smd custom (at 1.23241 -0.599949) (size 0.664973 0.199898) (layers F.Cu F.Mask F.Paste)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy -0.150013 -0.1) (xy 0.332588 -0.1) (xy 0.332588 0.1) (xy -0.33241 0.1)) (width 0))
+    ))
+  (pad 7 smd rect (at 1.23241 -0.199898) (size 0.664999 0.2) (layers F.Cu F.Mask F.Paste))
+  (pad 6 smd rect (at 1.23241 0.199898) (size 0.664999 0.2) (layers F.Cu F.Mask F.Paste))
+  (pad 5 smd custom (at 1.231902 0.599949) (size 0.664973 0.199898) (layers F.Cu F.Mask F.Paste)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy -0.332004 -0.1) (xy 0.332995 -0.1) (xy 0.332614 0.1) (xy -0.150013 0.1)) (width 0))
+    ))
+  (pad 4 smd custom (at 0.599949 0.732614) (size 0.199898 0.664973) (layers F.Cu F.Mask F.Paste)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy -0.1 -0.332588) (xy 0.1 -0.150013) (xy 0.1 0.33241) (xy -0.1 0.33241)) (width 0))
+    ))
+  (pad 3 smd rect (at 0.199898 0.732614) (size 0.2 0.664999) (layers F.Cu F.Mask F.Paste))
+  (pad 2 smd rect (at -0.199898 0.732614) (size 0.2 0.664999) (layers F.Cu F.Mask F.Paste))
+  (pad 1 smd custom (at -0.599949 0.732614) (size 0.199898 0.664973) (layers F.Cu F.Mask F.Paste)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy -0.1 -0.150013) (xy 0.1 -0.332614) (xy 0.1 0.332385) (xy -0.1 0.332385)) (width 0))
+    ))
+  (fp_text user REF** (at 0 5.016002) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+)
